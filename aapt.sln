@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aapt", "src\aapt\aapt.vcxproj", "{DCA46CF6-BAFE-431D-94A2-C3E3B4BD07EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3B1952D-85EA-433F-AB34-C00A1CC92795} = {E3B1952D-85EA-433F-AB34-C00A1CC92795}
+		{5A9FF852-2539-412F-8EE5-3CD336113698} = {5A9FF852-2539-412F-8EE5-3CD336113698}
+		{C449C56A-E821-40A7-860F-55537123A098} = {C449C56A-E821-40A7-860F-55537123A098}
+		{E0F125A0-0D01-4A35-ADE3-F78BE7FDCE37} = {E0F125A0-0D01-4A35-ADE3-F78BE7FDCE37}
+		{B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F} = {B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libandroidfw", "src\libandroidfw\libandroidfw.vcxproj", "{E0F125A0-0D01-4A35-ADE3-F78BE7FDCE37}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libutils", "src\libutils\libutils.vcxproj", "{5A9FF852-2539-412F-8EE5-3CD336113698}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcutils", "src\libcutils\libcutils.vcxproj", "{B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libziparchive", "src\libziparchive\libziparchive.vcxproj", "{C449C56A-E821-40A7-860F-55537123A098}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3B1952D-85EA-433F-AB34-C00A1CC92795} = {E3B1952D-85EA-433F-AB34-C00A1CC92795}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbase", "src\libbase\libbase.vcxproj", "{E3B1952D-85EA-433F-AB34-C00A1CC92795}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F} = {B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA46CF6-BAFE-431D-94A2-C3E3B4BD07EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCA46CF6-BAFE-431D-94A2-C3E3B4BD07EC}.Debug|Win32.Build.0 = Debug|Win32
+		{DCA46CF6-BAFE-431D-94A2-C3E3B4BD07EC}.Release|Win32.ActiveCfg = Release|Win32
+		{DCA46CF6-BAFE-431D-94A2-C3E3B4BD07EC}.Release|Win32.Build.0 = Release|Win32
+		{E0F125A0-0D01-4A35-ADE3-F78BE7FDCE37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0F125A0-0D01-4A35-ADE3-F78BE7FDCE37}.Debug|Win32.Build.0 = Debug|Win32
+		{E0F125A0-0D01-4A35-ADE3-F78BE7FDCE37}.Release|Win32.ActiveCfg = Release|Win32
+		{E0F125A0-0D01-4A35-ADE3-F78BE7FDCE37}.Release|Win32.Build.0 = Release|Win32
+		{5A9FF852-2539-412F-8EE5-3CD336113698}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A9FF852-2539-412F-8EE5-3CD336113698}.Debug|Win32.Build.0 = Debug|Win32
+		{5A9FF852-2539-412F-8EE5-3CD336113698}.Release|Win32.ActiveCfg = Release|Win32
+		{5A9FF852-2539-412F-8EE5-3CD336113698}.Release|Win32.Build.0 = Release|Win32
+		{B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F}.Debug|Win32.Build.0 = Debug|Win32
+		{B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F}.Release|Win32.ActiveCfg = Release|Win32
+		{B8D8FFA2-CD37-4E64-9EEB-BC4D9EEFEF1F}.Release|Win32.Build.0 = Release|Win32
+		{C449C56A-E821-40A7-860F-55537123A098}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C449C56A-E821-40A7-860F-55537123A098}.Debug|Win32.Build.0 = Debug|Win32
+		{C449C56A-E821-40A7-860F-55537123A098}.Release|Win32.ActiveCfg = Release|Win32
+		{C449C56A-E821-40A7-860F-55537123A098}.Release|Win32.Build.0 = Release|Win32
+		{E3B1952D-85EA-433F-AB34-C00A1CC92795}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3B1952D-85EA-433F-AB34-C00A1CC92795}.Debug|Win32.Build.0 = Debug|Win32
+		{E3B1952D-85EA-433F-AB34-C00A1CC92795}.Release|Win32.ActiveCfg = Release|Win32
+		{E3B1952D-85EA-433F-AB34-C00A1CC92795}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
